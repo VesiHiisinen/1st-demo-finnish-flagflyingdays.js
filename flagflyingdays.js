@@ -20,13 +20,13 @@
 ** by removing the // comments below:
 */
 
-//	var now = new Date()
-//	var nyt = now
+	var now = new Date()
+	var nyt = now
 	var mothersDayDate = 0
 	var fathersDayDate = 0
 	var midSummerDayDate = 0
 	var kiaDayDate = 0
-	var lippu = '<img src="kuvat/suomen_lippu.png" width="18" height="13">'
+	var lippu = '<img src="kuvat/suomen_lippu.png" width="18" height="13">' // You need to have this file!
 function getMothersDayDate() { 
 		var year = now.getFullYear();
 		var date = new Date(year, 4, 7);
@@ -79,37 +79,10 @@ function flagFlyingDays() {
 	//console.log("Function flagFlyingDays firing up!");
 		
 	tammikuu = new Array(31);
-	tammikuu[0]=eil;
-	tammikuu[1]=eil;
-	tammikuu[2]=eil;
-	tammikuu[3]=eil;
-	tammikuu[4]=eil;
-	tammikuu[5]=eil;
-	tammikuu[6]=eil;
-	tammikuu[7]=eil;
-	tammikuu[8]=eil;
-	tammikuu[9]=eil;
-	tammikuu[10]=eil;
-	tammikuu[11]=eil;
-	tammikuu[12]=eil;
-	tammikuu[13]=eil;
-	tammikuu[14]=eil;
-	tammikuu[15]=eil;
-	tammikuu[16]=eil;
-	tammikuu[17]=eil;
-	tammikuu[18]=eil;
-	tammikuu[19]=eil;
-	tammikuu[20]=eil;
-	tammikuu[21]=eil;
-	tammikuu[22]=eil;
-	tammikuu[23]=eil;
-	tammikuu[24]=eil;
-	tammikuu[25]=eil;
-	tammikuu[26]=eil;
-	tammikuu[27]=eil;
-	tammikuu[28]=eil;
-	tammikuu[29]=eil;
-	tammikuu[30]=eil;
+	
+	for (i=0; i<31; i++) {
+		tammikuu[i]=eil;
+	}
 
 	maaliskuu = new Array(31);
 	maaliskuu[0]=eil;
